@@ -19,13 +19,6 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
     $error = "Debe llenar todos los datos";
 }
 
-
-// if($resultado){
-//     echo "Guardado exitosamente";
-// }else{
-//     echo "Ocurrió un error: $error";
-// }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -54,7 +47,7 @@ if($_POST['cliente_nombre'] != '' && $_POST['cliente_nit'] != ''){
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <a href="/practica_8/vistas/clientes/index.php" class="btn btn-info">Volver al formulario</a>
+                <a href="/crud_practica8/vistas/clientes/index.php" class="btn btn-info">Volver al formulario</a>
             </div>
         </div>
     </div>
